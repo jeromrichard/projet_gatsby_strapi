@@ -35,14 +35,14 @@ export default () => (
     <Slider/>
     <Container className="pt-4">
       <div className="text-center">
-        <h4>A slightly opinionated Gatsby starter template.</h4>
-        <p className="text-muted">Built with love on the Gold Coast, QLD Australia</p>
+        <h4>Fabriquer à partir de Gatsby starter template.</h4>
+        <p className="text-muted">Un site construit à Comines, France</p>
       </div>
     </Container>
     <Container className="py-5">
       <h2 className="text-center mb-4">Services</h2>
       <Row>
-        <Service title="Websites"/>
+        <Service title="Sites web"/>
         <Service title="SEO"/>
         <Service title="API"/>
       </Row>

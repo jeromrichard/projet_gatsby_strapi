@@ -18,7 +18,7 @@ let Cirle = Styled.div`
 `
 
 let ContactItem = ({text, type, Icon, href}) => (
-  <Col xs={6} lg={3} className="d-flex flex-column align-items-center" style={{wordBreak: 'break-word'}}>
+  <Col xs={6} lg={4} className="d-flex flex-column align-items-center" style={{wordBreak: 'break-word'}}>
     <Cirle className="h-4-rem w-4-rem bg-primary-faded my-3 absolute-center rounded-circle">
       <Icon size={30}/>
     </Cirle>
@@ -33,18 +33,18 @@ let ContactItem = ({text, type, Icon, href}) => (
 
 export default ({data}) => (
   <Layout>
-    <PageTitle title="Contact Us"/>
+    <PageTitle title="Contactez-nous"/>
     <Container>
       <Row className="py-5">
         <ContactItem text={data.site.siteMetadata.address} type="Address" Icon={FaMapMarkerAlt}/>
         <ContactItem text={data.site.siteMetadata.email} href={`mailto:test@test.com`} type="Email" Icon={FaEnvelope}/>
         <ContactItem text={data.site.siteMetadata.phone} href={`tel:12345`} type="Phone" Icon={FaPhone}/>
-        <ContactItem text={data.site.siteMetadata.fax} type="Fax" Icon={FaFax}/>
+       
       </Row>
       <hr/>
       <Row className="py-5">
         <Col md={6} className="m-auto">
-          <h4 className="text-center text-secondary">Message Us</h4>
+          <h4 className="text-center text-secondary">Envoyez-nous un message</h4>
           <Hr/>
           <ContactForm/>
         </Col>
@@ -60,7 +60,7 @@ export const query = graphql`
         address
         email
         phone
-        fax
+       
       }
     }
   }

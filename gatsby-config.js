@@ -3,12 +3,12 @@ let gtm = ''
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Bootstrap Strapi Starter`,
+    title: `RESSOURCES 3C`,
     description: `Gatsby + Strapi = <3`,
-    author: `Jeremy Lynch`,
+    author: `Jérôme Richard`,
     siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
     phone: '12345',
-    fax: '12345',
+   
     address: '123 fake street',
     email: 'contact@test.com'
 
