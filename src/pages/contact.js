@@ -36,9 +36,9 @@ export default ({data}) => (
     <PageTitle title="Contactez-nous"/>
     <Container>
       <Row className="py-5">
-        <ContactItem text={data.site.siteMetadata.address} type="Address" Icon={FaMapMarkerAlt}/>
-        <ContactItem text={data.site.siteMetadata.email} href={`mailto:test@test.com`} type="Email" Icon={FaEnvelope}/>
-        <ContactItem text={data.site.siteMetadata.phone} href={`tel:12345`} type="Phone" Icon={FaPhone}/>
+        <ContactItem text={data.site.siteMetadata.address} type="Addresse" Icon={FaMapMarkerAlt}/>
+        <ContactItem text={data.site.siteMetadata.email} href={`mailto:olivier@r3c.fr`} type="Email" Icon={FaEnvelope}/>
+        <ContactItem text={data.site.siteMetadata.phone} href={`tel:12345`} type="Téléphone" Icon={FaPhone}/>
        
       </Row>
       <hr/>
