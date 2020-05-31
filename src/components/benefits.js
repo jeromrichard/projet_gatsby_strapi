@@ -38,7 +38,7 @@ let Benefits = ({data}) => (
           <h2 className="text-primary">Nouvelle génération de site Web</h2>
           <p className="text-muted">Extremement rapide, essayez le!</p>
         </div>
-        <Benefit title="Styled Components" content="We're using the css-in-js methodology to make this website extremely fast!"/>
+        <Benefit title="Composants stylisés" content="Nous utlisons la méthode css-in-js pour construire des sites Web extremement rapides!"/>
         <Benefit title="Gatsby" content="Gatsby offers a huge range of performance enhancements!"/>
       </Col>
       <Col md="6">
@@ -52,7 +52,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query BenefitsQuery {
-        file(relativePath: {eq: "sample.png"}) {
+        file(relativePath: {eq: "Capture d’écran (19).png"}) {
           id
           childImageSharp {
             fluid {
