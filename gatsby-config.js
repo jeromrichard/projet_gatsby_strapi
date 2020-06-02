@@ -14,6 +14,23 @@ module.exports = {
 
   },
   plugins: [
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: `YOUR_AIRTABLE_API_KEY`,
+        tables: [
+          {
+            baseId: `AIRTABLE_BASE_ID`,
+            tableName: `Sandwiches`
+          },
+          // We can add other bases/tables here, too!
+          //{
+            //baseId: `AIRTABLE_BASE_ID`,
+            //tableName: `Sides`
+          //}
+        ]
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
