@@ -48,7 +48,7 @@ export default () => (
       </Row>
     </Container>
     <div className="text-center py-5">
-      <Button to="https://github.com/jeromrichard/projet_gatsby_strapi" className="btn btn-primary btn-lg">
+      <Button to="https://github.com/jeremylynch/gatsby-strapi-starter" className="btn btn-primary btn-lg">
         <FaGithub className="mr-1"/>
         View on Github
       </Button>
