@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
+
 const Collaborateur = () => {
   const data = useStaticQuery(graphql`
     query MenuQuery {

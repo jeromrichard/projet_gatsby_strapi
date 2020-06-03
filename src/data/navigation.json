@@ -3,7 +3,7 @@
   {"name": "GitHub", "url": "https://github.com/jeremylynch/gatsby-strapi-starter"},
   {"name": "Options", "url": "", "dropdownItems": [
     {"name": "Option 1", "url": "/options1"},
-    {"name": "Option 2", "url": "/test"},
-    {"name": "Reset", "url": "/test"}
+    {"name": "Option 2", "url": "/options1"},
+    {"name": "Reset", "url": "/options1"}
   ]}
 ]
