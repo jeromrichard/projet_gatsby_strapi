@@ -14,23 +14,23 @@ module.exports = {
 
   },
   plugins: [
-  //  {
-  //    resolve: `gatsby-source-airtable`,
-  //    options: {
-  //      apiKey: `keyKnzAW2FKCcNlIL`,
-  //      tables: [
-  //        {
-  //          baseId: `appUupdiPvAlAzVdL`,
-  //          tableName: `Collaborateur`
-  //        },
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: `keyKnzAW2FKCcNlIL`,
+        tables: [
+          {
+            baseId: `appUupdiPvAlAzVdL`,
+            tableName: `Collaborateur`
+          },
           // We can add other bases/tables here, too!
           //{
             //baseId: `AIRTABLE_BASE_ID`,
             //tableName: `Sides`
           //}
-  //      ]
-  //    }
-  //  },
+        ]
+      }
+   },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
