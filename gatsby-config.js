@@ -17,11 +17,11 @@ module.exports = {
   //  {
   //    resolve: `gatsby-source-airtable`,
   //    options: {
-  //      apiKey: `YOUR_AIRTABLE_API_KEY`,
+  //      apiKey: `keyKnzAW2FKCcNlIL`,
   //      tables: [
   //        {
-  //          baseId: `AIRTABLE_BASE_ID`,
-  //          tableName: `Sandwiches`
+  //          baseId: `appUupdiPvAlAzVdL`,
+  //          tableName: `Collaborateur`
   //        },
           // We can add other bases/tables here, too!
           //{
