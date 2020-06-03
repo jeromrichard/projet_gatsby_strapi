@@ -7,7 +7,7 @@ const Collaborateur = () => {
     query MenuQuery {
       Collaborateur: allAirtable(
         filter: { table: { eq: "Collaborateur" } }
-        sort: { fields: data___Nom, order: DESC }
+        sort: { fields: data___Nom}
       ) {
         nodes {
           data {
