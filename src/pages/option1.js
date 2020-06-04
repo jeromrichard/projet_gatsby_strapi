@@ -19,7 +19,7 @@ const Collaborateur = () => {
       }
     }
   `);
-
+console.log(Collaborateur);
   return (
     <div>
       <h3>Collaborateur</h3>
