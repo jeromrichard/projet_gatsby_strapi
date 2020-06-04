@@ -1,5 +1,8 @@
-import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import React from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
+
+
+  
 
 
 const Collaborateur = () => {
@@ -19,7 +22,7 @@ const Collaborateur = () => {
         }
       }
     }
-  `);
+  );
 
   return (
     <div>
