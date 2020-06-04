@@ -1,13 +1,9 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-
-
-  
-
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
 const Collaborateur = () => {
   const data = useStaticQuery(graphql`
-    query MenuQuery {
+    query CollaborateurQuery {
       Collaborateur: allAirtable(
         filter: { table: { eq: "Collaborateur" } }
         sort: { fields: data___Nom}
@@ -22,7 +18,7 @@ const Collaborateur = () => {
         }
       }
     }
-  );
+  `);
 
   return (
     <div>
