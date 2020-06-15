@@ -1,6 +1,6 @@
 [
   {"name": "Contact", "url": "/contact"},
-  {"name": "GitHub", "url": "https://github.com/jeremylynch/gatsby-strapi-starter"},
+  {"name": "GitHub", "url": "https://github.com/jeromrichard/projet_gatsby_strapi.git"},
   {"name": "Options", "url": "", "dropdownItems": [
     {"name": "Option 1", "url": "/option1"},
     {"name": "Option 2", "url": "/option1"},
